@@ -1,0 +1,765 @@
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!----cdnjs font awesome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--Google Font here: Poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./style.css">
+ </head>
+ <body>
+    <header>
+       <!--top bar-->
+       <div class="top-bar p-2  bg-opacity-70 text-white">
+          <div class="container">
+             <div class="row ">
+                <div class="col-8">
+                   <i class="bi bi-clock"></i> Mon to Sat : 08:00 - 15:30
+                </div>
+                <div class="col-4">
+                   <div class="row text-end">
+                      <div class="col-5">
+                         <i class="bi bi-telephone"></i> +1 801 4545 87
+                      </div>
+                      <div class="col">
+                         <i class="bi bi-envelope"></i> contact@gmail.com
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <!--Main Menu-->
+       <div class="container d-flex flex-wrap justify-content-center py-3 border-bottom">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+             <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+             </svg>
+             <span class="fs-4"><img src="./images/Android Small - 1.png "></span>
+          </a>
+          <ul class="nav nav-pills text-uppercase fw-bold menustyle pt-2">
+             <li class="nav-item px-1"><a href="#" class="nav-link text-black" aria-current="page">Home</a></li>
+             <li class="nav-item px-1"><a href="#" class="nav-link text-black">About us</a></li>
+             <li class="nav-item px-1"><a href="#" class="nav-link text-black">Service</a></li>
+             <li class="nav-item px-1 dropdown">
+              <a href="#" class="nav-link dropdown-toggle text-black" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Why Us  
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">SUB MENU ITEAM 1</a></li>
+                <li><a class="dropdown-item" href="#">SUB MENU ITEAM 2</a></li>
+                <li><a class="dropdown-item" href="#">SUB MENU ITEAM 3</a></li>
+              </ul>
+            </li>
+             <li class="nav-item px-1"><a href="#" class="nav-link text-black">Portfolio</a></li>
+             <li class="nav-item px-1"><a href="#" class="nav-link text-black">Team</a></li>
+             <li class="nav-item px-1"><a href="#" class="nav-link text-black">Testimonial</a></li>
+             <li class="nav-item px-1"><a href="#" class="nav-link text-black">Pricing</a></li>
+             <li class="nav-item px-1"><a href="#" class="nav-link text-black">Contact Us</a></li>
+          </ul>
+       </div>
+    </header>
+    <!--Slider section-->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide menubg">
+       <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+       </div>
+       <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="100">
+             <img src="./images/header-slide-1.png" class="d-block float-end" alt="...">
+             <div class="carousel-caption capcust">
+              <div class="col-7">
+               <div class="row">
+                <h2>We Professional Consultancy</h2>
+                <h1>we build your business with our experts</h1>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing
+                  and typesetting indus orem Ipsum has been the
+                  industry's standard dummy text ever since the
+                  when an own printer took a galley of type and
+                  scrambled it to make.</p>
+             </div>
+              </div>
+          </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="100">
+             <img src="./images/header-slide-1.png" class="d-block float-end" alt="...">
+             <div class="carousel-caption capcust">
+              <div class="col-7">
+               <div class="row">
+                <h2>We Professional Consultancy</h2>
+                <h1>we build your business with our experts</h1>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing
+                  and typesetting indus orem Ipsum has been the
+                  industry's standard dummy text ever since the
+                  when an own printer took a galley of type and
+                  scrambled it to make.</p>
+             </div>
+              </div>
+          </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="100">
+             <img src="./images/header-slide-1.png" class="d-block float-end" alt="...">
+             <div class="carousel-caption capcust">
+              <div class="col-7">
+               <div class="row">
+                <h2>We Professional Consultancy</h2>
+                <h1>we build your business with our experts</h1>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing
+                  and typesetting indus orem Ipsum has been the
+                  industry's standard dummy text ever since the
+                  when an own printer took a galley of type and
+                  scrambled it to make.</p>
+             </div>
+              </div>
+          </div>
+          </div>
+          
+       </div>
+
+       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+       <span class="carousel-control-next-icon" aria-hidden="true"></span>
+       <span class="visually-hidden">Next</span>
+       </button>
+    </div>
+    <!-- side quote -->
+    <div class="quote-img  text-white">
+       <div class="container">
+          <div class="row  ">
+             <div class="quote-box1 col-3 ">
+                <i class="bi bi-file-earmark-text "></i>
+                <p>PROFESSIONAL</p>
+                <p>BUSINESS SOLUTIONS &amp; CONSULTING</p>
+             </div>
+             <div class="quote-box2 col-6">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting indus orem
+                   Ipsum has been the industry's standard dummy textve rsince
+                </p>
+             </div>
+             <div class="quote-box3 col-3 "> 
+                <a href="#" class="theme-btn ">FREE QUOTE</a>
+             </div>
+          </div>
+       </div>
+    </div>
+    <!------ABOUT US------>
+    <div class="about-section">
+       <div class="container">
+          <div class="row">
+             <h1 class="about-text1 text-center mt-5 mb-4">about <strong>us</strong></h1>
+             <h2 class="about-text2 text-center mb-6 fs-4"> OUR<span class="text-primary">50 YEARS OF EXPERIENCE</span><br>
+                WILL HELP YOU TO GROW YOUR BUSINESS 
+             </h2>
+             <p class="about-text3 text-center m-4">Lorem Ipsum is simply dummy text of the printinLorem Ipsum is simply dummy text of the printing and typeseing industry Lorem Ipsum has been
+                the industry standard dummy text ever since the when an g and typeseing induLorem Ipsumf the printing and.
+             </p>
+             <vdi class="row ">
+              
+             <div class="about col-4 p-5">
+                <div class="about-box "><i class="bi bi-briefcase-fill"></i></div>
+                <h3 class="about-font text-center pb-3">SECURITY MANAGEMENT</h3>
+                <p class="text-center">Lorem Ipsum is simply dummy text of the
+                   printinLorem Ipsum is simply dummy
+                </p>
+             </div>
+
+             <div class="about col-4 p-5">
+                <div class="about-box  "><i class="bi bi-bar-chart-fill"></i></div>
+                <h3 class=" about-font text-center pb-3">FINANCE PLANING</h3>
+                <p class="text-center">Lorem Ipsum is simply dummy text of the
+                   printinLorem Ipsum is simply dummy
+                </p>
+             </div>
+
+             <div class="about col-4 p-5">
+                <div class="about-box "><i class="bi bi-search"></i></div>
+                <h3 class="about-font text-center pb-3">EDUCATIONAL SUPPORT</h3>
+                <p class="text-center">Lorem Ipsum is simply dummy text of the
+                   printinLorem Ipsum is simply dummy
+                </p>
+             </div>
+
+             <img src="./images/about-us-bg.png">
+          </vdi></div>
+       </div>
+    </div>
+    <!------our mission------>
+    <div class="mission-section">
+       <div class="container">
+          <div class="row ">
+             <div class="mission-1 col-6 w-50%">
+                <div class="section-align-center">
+                    <div class="site-mission text-center text-white">
+                      <h2>OUR <strong>MISSION</strong></h2>
+                      <p>“Lorem Ipsum is simply dummy text of therinting and
+                        typeseing industry Lorem sum haseen the”</p>
+                    </div>
+                </div>
+             </div>
+
+
+             <div class="mission-2 col-6 text-white">
+              <div class="section-align-center">
+
+                <div class="site-number">
+                  <div class="site-number-inline">
+                    <figure><i class="fa fa-users"></i></figure>
+                    <h3>20K</h3>
+                    <p>happy clients</p>
+                  </div>
+                </div>
+
+                <div class="site-number">
+                  <div class="site-number-inline">
+                    <figure><i class="fa-regular fa-square-check"></i></figure>
+                    <h3>50K</h3>
+                    <p>project completed</p>
+                  </div>
+                </div>
+
+                <div class="site-number">
+                  <div class="site-number-inline">
+                    <figure><i class="fa-solid fa-briefcase"></i></figure>
+                    <h3>550</h3>
+                    <p>professionals</p>
+                  </div>
+                </div>
+
+                <div class="site-number">
+                  <div class="site-number-inline">
+                    <figure><i class="fa fa-users"></i></figure>
+                    <h3>10+</h3>
+                    <p>Best Awards</p>
+                  </div>
+                </div>
+
+
+              </div>
+             </div>
+          </div>
+       </div>
+    </div>
+
+
+
+    <!------our services-------->
+
+
+
+    <div class="our-service">
+       <div class="container pt-5 p-5">
+          <div class="row mb-5">
+             <h1 class="our-service-1 mb-5  text-center">our <strong>service</strong></h1>
+
+             <div class="service col-4 p-4 mb-4">
+              <div class="service-box">
+                <h3 class="box mb-4">CONSULTANCY</h3>
+                <p class="box m-3  text-center"> Lorem Ipsum is simply dummy text of ther
+                   inting and typeseing industry Lorem sum
+                   haseen the industry's standard dummy.
+                </p>
+             </div>
+             </div>
+
+             <div class="service col-4 p-4 mb-4">
+              <div class="service-box">
+                <h3 class="box mb-4">FINANCE</h3>
+                <p class="box m-3"> Lorem Ipsum is simply dummy text of ther
+                   inting and typeseing industry Lorem sum
+                   haseen the industry's standard dummy.
+                </p>
+             </div>
+             </div>
+
+             <div class="service col-4 p-4 mb-4">
+              <div class="service-box">
+                <h3 class="box mb-4">ADVERTISING</h3>
+                <p class="box m-3"> Lorem Ipsum is simply dummy text of ther
+                   inting and typeseing industry Lorem sum
+                   haseen the industry's standard dummy.
+                </p>
+             </div>
+             </div>
+
+             <div class="service col-4 p-4 ">
+              <div class="service-box">
+                <h3 class="box mb-4">BUSINESS PLANING</h3>
+                <p class="box m-3"> Lorem Ipsum is simply dummy text of ther
+                   inting and typeseing industry Lorem sum
+                   haseen the industry's standard dummy.
+                </p>
+             </div>
+             </div>
+
+
+             <div class="service col-4 p-4 ">
+              <div class="service-box">
+                <h3 class="box mb-4">ONLINE SUPPORT</h3>
+                <p class="box m-3"> Lorem Ipsum is simply dummy text of ther
+                   inting and typeseing industry Lorem sum
+                   haseen the industry's standard dummy.
+                </p>
+             </div>
+       </div>
+
+             <div class="service col-4 p-4 ">
+              <div class="service-box">
+                <h3 class="box mb-4">SUPER IDEAS</h3>
+                <p class="box m-3"> Lorem Ipsum is simply dummy text of ther
+                   inting and typeseing industry Lorem sum
+                   haseen the industry's standard dummy.
+                </p>
+             </div>
+             </div>
+
+          </div>
+       </div>
+    </div>
+    <!-----why us only------->
+    <div class="why-us">
+       <div class="container pt-5 pb-5">
+          <div class="row ">
+             <div class="col-6 mt-5">
+                <h1 class="h1  mb-5">WHY <strong>US ONLY ?</strong></h1>
+                <div class="row">
+                   <ul class="site-tabs-buttons">
+                      <li class="active text-white"><a data-tab-bg="tab-bg-1">QUALITY</a> </li>
+                      <li><a data-tab-bg="tab-bg-2">SERVICES</a> </li>
+                      <li><a data-tab-bg="tab-bg-3">SUCCESS</a> </li>
+                   </ul>
+                </div>
+                <div class="site-tabs-wrapper">
+                   <div class="site-tabs-content" style=" display:block">
+                      <p class="p-1 mt-2 mb-5">Lorem Ipsum is simply dummy text of therinting and typeseing industry Lorem sum haseen the
+                         industry's standard dummy. text ever since the when an ing typesei.Lorem Ipsum is simply my text of
+                         therinting and typeseing industry Lorem sum haseen the industry's standard dummy. text ever since
+                         the when an ing typesei.Lorem Ipsum is simply dummy text of therinting and typeseing industry
+                         Lorem sum haseen the industry's standard dummy.
+                      </p>
+                      <li>Lorem Ipsum is simply dummy text of therinting and typeseing industry Lorem.</li>
+                      <br>
+                      <li>Sum haseen the industry's standard dummy. text ever since.</li>
+                      <br>
+                      <li>The when an ing typesei Lorem Ipsum is simply dummy text of therinting and.</li>
+                      <br>
+                      <li>Typeseing industry Lorem sum haseen the industry's standard dummy.</li>
+                      <br>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+
+
+    <!-----our cases------>
+
+
+    <div class="our-cases-section p-3  text-white">
+       <div class="our-cases">
+          <div class="container">
+             <div class="row justify-content-center text-center">
+                <div class="row text-center p-5">
+                   <h1>OUR <strong>CASES</strong></h1>
+                </div>
+               <!-- <div class="row "> -->
+                 <ul class="site-portfolio-tabs">
+                   <li>All</li>
+                   <li data-filter="web-design">Web Design</li>
+                   <li data-filter="web-development">Web Development</li>
+                   <li data-filter="logo-design">Logo Design</li>
+                   <li data-filter="branding">Branding</li>
+                </ul>
+               <!-- </div>  -->
+                <div class="row col-12">
+                   <div class="our-border col-4">
+                      <img src="./images/portfolio-3.png " class="img mb-3">
+                      <img src="./images/portfolio-4.png ">
+                   </div>
+                   
+                   <div class="col-4">
+                      <img src="./images/portfolio-2.png">
+                   </div>
+                   <div class="col-4">
+                      <img src="./images/portfolio-1.png " class="img mb-3">
+                      <img src="./images/portfolio-5.png ">
+                   </div>
+                  
+                </div>
+                <div class="row ">
+                   <div class="col d-flex justify-content-center">
+                      <img src="./images/portfolio-6.jpg" class="d mt-3">
+                   </div>
+                </div>
+                <a href="#" class="theme-cases-btn ">Load More</a>
+             </div>
+          </div>
+       </div>
+    </div>
+    
+
+
+    <!------love our work--------->
+ 
+
+
+    <div class="site-call-to-action">
+       <div class="container">
+      
+            <div class="row">
+              <div class="site-box-0 col-12">
+                <div class="site-box-first">
+              <!-- H1 heading -->
+              <h1>Love our work ?</h1>
+                <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7 .col-lg-offset-1 text-white">
+    <p>Lorem Ipsum is simply dummy text of therinting and typeseing
+      industry Lorem sum haseen the industry's standard dummy
+      text ever since the when aning.</p>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+    <a href="#" class="theme-btn">Let’s get Started</a>
+  </div>
+
+                </div>
+             
+              </div>
+             </div>
+            </div>
+       </div>
+    </div>
+  
+    <!------innovativ team-------->
+
+<div class="innovativ-section">
+<div class="container">
+<div class="row">
+
+</div>
+</div>
+</div>
+
+
+
+    <!----happy client--->
+    
+    <section class="home-testimonial">
+      <div class="container-fluid">
+          <div class="row d-flex justify-content-center testimonial-pos">
+              <div class="col-md-12 pt-4 d-flex justify-content-center">
+                  <h3>Testimonials</h3>
+              </div>
+              <div class="col-md-12 d-flex justify-content-center">
+                  <h2>HAPPY CLIENTS</h2>
+              </div>
+          </div>
+          <section class="home-testimonial-bottom">
+              <div class="container testimonial-inner">
+                  <div class="row d-flex justify-content-center">
+                      <div class="col-md-4 style-3">
+                          <div class="tour-item ">
+                              <div class="tour-desc bg-white">
+                                  <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.”</div>
+                                  <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/6625914/pexels-photo-6625914.jpeg" alt=""></div>
+                                  <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                  <div class="link-position d-flex justify-content-center">client</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 style-3">
+                          <div class="tour-item ">
+                              <div class="tour-desc bg-white">
+                                  <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.”</div>
+                                  <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt=""></div>
+                                  <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                  <div class="link-position d-flex justify-content-center">client</div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-4 style-3">
+                          <div class="tour-item ">
+                              <div class="tour-desc bg-white">
+                                  <div class="tour-text color-grey-3 text-center">“At this School, our mission is to balance a rigorous comprehensive college preparatory curriculum with healthy social and emotional development.”</div>
+                                  <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="https://images.pexels.com/photos/4946604/pexels-photo-4946604.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt=""></div>
+                                  <div class="link-name d-flex justify-content-center">Balbir Kaur</div>
+                                  <div class="link-position d-flex justify-content-center">client</div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+          </div></section>
+  </div></section>
+
+    <!-------pricing tables-------->
+
+
+
+    <div class="pricing-section">
+       <div class="container">
+          <div class="row">
+             <div class="col-12">
+                <h1 class="tables-text text-center">pricing <strong>tables</strong></h1>
+                <div class="row">
+                   <div class="pricing-inner col-xs-12 col-sm-4 border">
+                      <div class="site-package">
+                         <h4>Startup Business</h4>
+                         <p>Best for startup companies loem umsum dolor summit imets</p>
+                         <div class="price-info">
+                            <span class="site-dollar">$</span>
+                            <span class="site-value">300</span>
+                            <span class="site-month">month</span>
+                         </div>
+                         <ul class="price-options">
+                            <li><i class="fa fa-check"></i> "Limited Install"</li>
+                            <li> <i class="fa fa-check"></i>"Unlimited Downlaod"</li>
+                            <li> <i class="fa fa-check"></i>"Free One Year Support"</li>
+                            <li><i class="fa fa-check"></i> "Free 15GB Linux Hosing"</li>
+                            <li> <i class="fa fa-close"></i>"30GB Storage"</li>
+                         </ul>
+                         <a href="#" class="theme-btn">Order Now</a>
+                      </div>
+                   </div>
+                   <div class="pricing-inner col-xs-12 col-sm-4">
+                      <div class="site-package">
+                         <h4>Startup Business</h4>
+                         <p>Best for startup companies loem umsum dolor summit imets</p>
+                         <div class="price-info">
+                            <span class="site-dollar">$</span>
+                            <span class="site-value">199</span>
+                            <span class="site-month">month</span>
+                         </div>
+                         <ul class="price-options">
+                            <li><i class="fa fa-check"></i> "Limited Install"</li>
+                            <li> <i class="fa fa-check"></i>"Unlimited Downlaod"</li>
+                            <li> <i class="fa fa-check"></i>"Free One Year Support"</li>
+                            <li><i class="fa fa-check"></i> "Free 15GB Linux Hosing"</li>
+                            <li> <i class="fa fa-close"></i>"30GB Storage"</li>
+                         </ul>
+                         <a href="#" class="theme-btn">Order Now</a>
+                      </div>
+                   </div>
+                   <div class="pricing-inner col-xs-12 col-sm-4">
+                      <div class="site-package">
+                         <h4>Larger Business</h4>
+                         <p>Best for startup companies loem umsum dolor summit imets</p>
+                         <div class="price-info">
+                            <span class="site-dollar">$</span>
+                            <span class="site-value">499</span>
+                            <span class="site-month">month</span>
+                         </div>
+                         <ul class="price-options">
+                            <li><i class="fa fa-check"></i> "Limited Install"</li>
+                            <li> <i class="fa fa-check"></i>"Unlimited Downlaod"</li>
+                            <li> <i class="fa fa-check"></i>"Free One Year Support"</li>
+                            <li><i class="fa fa-check"></i> "Free 15GB Linux Hosing"</li>
+                            <li> <i class="fa fa-close"></i>"30GB Storage"</li>
+                         </ul>
+                         <a href="#" class="theme-btn">Order Now</a>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+
+
+
+
+
+    <!-----site tweets------->
+    <div class="site-tweets">
+       <div class="container">
+          <div class="row">
+             <div class="inner-tweets justify-content-center">
+             <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+       </div>
+    </div>
+
+
+
+
+    <!-----site clients---->
+
+
+
+
+    <div class="site-clients">
+       <div class="container">
+          <div class="row">
+             <div class="col-xs-12">
+                <figure><a href="#"><img src="images/client-1.png" alt="client"></a></figure>
+                <figure><a href="#"><img src="images/client-2.png" alt="client"></a></figure>
+                <figure><a href="#"><img src="images/client-3.png" alt="client"></a></figure>
+                <figure><a href="#"><img src="images/client-4.png" alt="client"></a></figure>
+                <figure><a href="#"><img src="images/client-5.png" alt="client"></a></figure>
+             </div>
+          </div>
+       </div>
+    </div>
+
+
+
+    <!----get in touch----->
+
+
+    <div class="site-quick-support pt-5 pb-5">
+       <div class="container">
+          <div class="row">
+             <div class="col-xs-12">
+                <h1 class="h1 mb-5 mt-5">get in <strong>touch</strong></h1>
+             </div>
+             <div class="map-and-form-container">
+                <div class="row">
+                   <div class="col-xs-12 col-sm-6">
+                      <div class="gm-err-content">
+                         <div class="gm-err-icon"><img src="./images/icon_error.png"></div>
+                         <div class="gm-err-title">Sorry! Something went wrong.</div>
+                         <div class="gm-err-message">This page didn't load Google Maps correctly. See the 
+                            JavaScript console for technical details.
+                         </div>
+                      </div>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 ">
+                      <form action="php/form.php" method="post" id="contactForm" class="site-contact-form">
+                         <label><input class="form-control forminput" type="text" name="contact_name" placeholder="Name" required="required" fdprocessedid="a5gyqp"></label>
+                         <label><input class="form-control forminput" type="email" name="contact_email" placeholder="Email" required="required" fdprocessedid="ecpchj"></label>
+                         <label><input class="form-control forminput" type="number" name="contact_phone" placeholder="Phone" required="required" fdprocessedid="4dtkaij"> </label>
+                         <label><textarea class="form-control forminput" name="contact_message" placeholder="Message" required="required" style="position: relative !important; z-index: auto !important;"></textarea></label>
+                         <button type="submit" class="btn btn-primary formbtn" fdprocessedid="b9e0d">SUBMIT<i class="fa fa-spin fa-spinner"></i></button>
+                      </form>
+                   </div>
+                </div>
+                <div class="site-contact-info">
+                   <div class="row">
+                      <div class=" col-xs-12 col-sm-6 col-md-3 no-space">
+                         <div class="site-box text-center">
+                            <figure><i class="bi bi-telephone-fill "></i></figure>
+                            <a>+1 123 456 7890</a><br>
+                            <a>+1 987 654 3213</a>
+                         </div>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-3 no-space">
+                         <div class="site-box odd text-center">
+                            <figure><i class="fa-solid fa-envelope"></i></figure>
+                            <a>support@gmail.com</a><br>
+                            <a>info@gmail.com</a>
+                         </div>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-3 no-space">
+                         <div class="site-box text-center">
+                            <figure><i class="fa-solid fa-location-dot"></i></figure>
+                            <a>Location, 125 Business</a><br>
+                            <a>Evenue, Huston, USA</a>
+                         </div>
+                      </div>
+                      <div class="col-xs-12 col-sm-6 col-md-3 no-space">
+                         <div class="site-box odd text-center">
+                            <figure><i class="fa-solid fa-clock"></i></figure>
+                            <a> Mon - Fri : 9 AM to 5 PM </a><br>
+                            <a> Sat - Sun : 9 AM to 2 PM</a>
+                         </div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    <!---->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   
+   
+   
+    <!----------footer---------->
+
+
+
+    <div class="site-footer">
+       <div class="container">
+          <div class="row">
+             <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="widget">
+                   <div class="site-logo"><img src="./images/Android Small - 1.png"></div>
+                   <p>Lorem Ipsum is simply dummy text of the print
+                      ing and typing indus try Lorem Ipsum has een the indus try's standard dummy text Loremsim
+                      ply dummy text of the printing and typeseing industryLorem Ipsum is simply.
+                   </p>
+
+                   <a href="#"><i class="fa-solid fa-location-dot me-1"></i> Location 125, Evenue, Huston, USA</a><br>
+
+                   <a href="tel:1234567890"><i class="fa fa-phone me-1"></i>+1 123 456 7890</a>
+
+                </div>
+             </div>
+             <div class="col-xs-12 col-sm-6 col-md-2">
+                <div class="widget">
+                   <h4>Services Links</h4>
+                   <ul>
+                      <li>Consultancy</li>
+                      <li>Finance</li>
+                      <li>Business planing</li>
+                      <li>Marketing</li>
+                      <li>Advertising</li>
+                      <li>Creative ideas</li>
+                      <li>FAQs</li>
+                   </ul>
+                </div>
+             </div>
+             <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="widget">
+                   <h3>Recent news</h3>
+                   <ul>
+                      <li>
+                         <p>Latest Business Event</p>
+                      </li>
+                      <li>
+                         <p>New Office opening</p>
+                      </li>
+                      <li>
+                         <p>Get to gethore</p>
+                      </li>
+                   </ul>
+                </div>
+             </div>
+             <div class="col-xs-12 col-sm-6 col-md-3">
+                <div class="widget">
+                   <h3>Subscribe us</h3>
+                   <p>"Subscribe to our Newsletter to get first Gift voucher by StartLorem Ipsum
+                      is simply dummy text of the printing and typing indus try Lorem Ipsum."
+                   </p>
+                   <br>
+                   <form method="post" action="#" class="site-subscribe"><input type="email" placeholder="Enter your email" required="required" name="form_subscribe" fdprocessedid="nyj71c">
+                      <button type="submit" fdprocessedid="chch42pc">
+                         <i class="fa fa-paper-plane text-white"></i>
+                      </button>
+                   </form>
+                </div>
+             </div>
+             <div class="col-xs-12"></div>
+             <div class="col-xs-12 col-sm-6"></div>
+             <div class="col-xs-12 col-sm-6"></div>
+             <hr>
+          </div>
+       </div>
+    </div>
+ 
+</body></html>
